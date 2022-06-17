@@ -16,5 +16,5 @@ create user LIGHTBOX00
 	default tablespace LIGHTBOX00_SPACE
 	temporary tablespace TEMP
 	quota unlimited on LIGHTBOX00_SPACE
-	account UNLOCK;
+	account UNLOCK
 ```
