@@ -1,6 +1,6 @@
 ### 各 PC 用のテーブルスペース作成
 ```sql
-create tablespace LIGHTBOX_SPACE
+create tablespace LIGHTBOX00_SPACE
 	datafile 'C:\app\lightbox\product\21c\oradata\XE\LIGHTBOX00.DBF'
 	size 5M
 	autoextend on
