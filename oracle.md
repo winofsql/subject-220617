@@ -8,4 +8,6 @@
     - instantclient-basic-nt-21.6.0.0.0dbru.zip
     - instantclient-odbc-nt-21.6.0.0.0dbru.zip
     - 上記書庫を解凍して、中のフォルダを合体させて、c:\app\lightbox の中に作成
-      - c:\app\lightbox\instantclient_21_6
+      - c:\app\lightbox\instantclient_21_6\
+      ![image](https://user-images.githubusercontent.com/1501327/174203131-37bcb9a4-b340-490c-8df4-4006d325ea64.png)
+
