@@ -19,8 +19,6 @@
 alter session set container = XEPDB1
 ```
 ```sql
-alter session set container = XEPDB1;
-
 create tablespace LIGHTBOX00_SPACE
 	datafile 'C:\app\lightbox\product\21c\oradata\XE\LIGHTBOX00PDB.DBF'
 	size 5M
