@@ -36,3 +36,5 @@ create user LIGHTBOX00
 	quota unlimited on LIGHTBOX00_SPACE
 	account UNLOCK
 ```
+
+https://www.dbsheetclient.jp/blog/?p=1566
