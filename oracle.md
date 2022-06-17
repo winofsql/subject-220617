@@ -19,15 +19,20 @@
 alter session set container = XEPDB1
 ```
 ```sql
-create user LIGHTBOX10
+alter session set container = XEPDB1;
 
+create tablespace LIGHTBOX00_SPACE
+	datafile 'C:\app\lightbox\product\21c\oradata\XE\LIGHTBOX00PDB.DBF'
+	size 5M
+	autoextend on
+	next 1M
+	maxsize unlimited
+	segment space management AUTO;
+
+create user LIGHTBOX00
 	identified by trustno1
-
-	default tablespace LIGHTBOX10_SPACE
-
+	default tablespace LIGHTBOX00_SPACE
 	temporary tablespace TEMP
-
-	quota unlimited on LIGHTBOX10_SPACE
-
+	quota unlimited on LIGHTBOX00_SPACE
 	account UNLOCK
 ```
