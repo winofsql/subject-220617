@@ -15,5 +15,19 @@
       ![image](https://user-images.githubusercontent.com/1501327/174204800-0224503c-336b-4125-95e3-7ad6e36b1d63.png)\
       ![image](https://user-images.githubusercontent.com/1501327/174205055-c2af03bd-e26a-4ed7-98dc-6374e745846a.png)
 
+```sql
+alter session set container = XEPDB1
+```
+```sql
+create user LIGHTBOX10
 
+	identified by trustno1
 
+	default tablespace LIGHTBOX10_SPACE
+
+	temporary tablespace TEMP
+
+	quota unlimited on LIGHTBOX10_SPACE
+
+	account UNLOCK
+```
