@@ -19,19 +19,19 @@
 alter session set container = XEPDB1
 ```
 ```sql
-create tablespace LIGHTBOX00_SPACE
-	datafile 'C:\app\lightbox\product\21c\oradata\XE\LIGHTBOX00PDB.DBF'
+create tablespace LIGHTBOX99_SPACE
+	datafile 'C:\app\lightbox\product\21c\oradata\XE\LIGHTBOX99PDB.DBF'
 	size 5M
 	autoextend on
 	next 1M
 	maxsize unlimited
 	segment space management AUTO;
 
-create user LIGHTBOX00
+create user LIGHTBOX99
 	identified by trustno1
-	default tablespace LIGHTBOX00_SPACE
+	default tablespace LIGHTBOX99_SPACE
 	temporary tablespace TEMP
-	quota unlimited on LIGHTBOX00_SPACE
+	quota unlimited on LIGHTBOX99_SPACE
 	account UNLOCK;
 	
 grant 
@@ -58,7 +58,7 @@ grant
 	,SELECT ANY DICTIONARY
 	,SELECT ANY SEQUENCE
 	,SELECT ANY TABLE
-to LIGHTBOX00	
+to LIGHTBOX99	
 ```
 
 https://www.dbsheetclient.jp/blog/?p=1566
