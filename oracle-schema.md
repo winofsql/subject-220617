@@ -8,3 +8,13 @@ create tablespace LIGHTBOX00_SPACE
 	maxsize unlimited
 	segment space management AUTO
 ```
+
+### 各ユーザの作成
+```sql
+create user LIGHTBOX00
+	identified by trustno1
+	default tablespace LIGHTBOX00_SPACE
+	temporary tablespace TEMP
+	quota unlimited on LIGHTBOX00_SPACE
+	account UNLOCK;
+```
