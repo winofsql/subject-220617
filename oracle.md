@@ -62,3 +62,4 @@ to LIGHTBOX99
 ```
 
 https://www.dbsheetclient.jp/blog/?p=1566
+https://docs.oracle.com/cd/E57425_01/121/SQPUG/GUID-E26A730D-C5B1-4CB3-BB2F-07E526B547C0.htm
